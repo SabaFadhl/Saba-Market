@@ -55,8 +55,16 @@ class HomeScreen extends StatelessWidget {
         ),
         centerTitle: true,
         actions: [
+          IconButton(onPressed: (){
+            Navigator.pushNamed(context, "/login");
+          }, icon: Icon(Icons.login)),
+          IconButton(onPressed: (){
+            Navigator.pushNamed(context, "/register");
+          }, icon: Icon(Icons.supervised_user_circle_rounded)),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+
+            },
             icon: const Icon(Icons.search, color: Colors.white),
           ),
         ],
