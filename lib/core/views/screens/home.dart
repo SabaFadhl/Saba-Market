@@ -50,7 +50,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.teal,
         elevation: 0,
         title: const Text(
-          "Spacetoon Shop",
+          "Saba Market",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
